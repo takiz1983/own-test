@@ -3,7 +3,7 @@ package base;
 public class test {
 
 	private String name;
-	private String password;
+	private String password1;
 	
 	public String getName() {
 		return name;
@@ -12,9 +12,9 @@ public class test {
 		this.name = name;
 	}
 	public String getPassword() {
-		return password;
+		return password1;
 	}
 	public void setPassword(String password) {
-		this.password = password;
+		this.password1 = password1;
 	}
 }
